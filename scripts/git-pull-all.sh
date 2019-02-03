@@ -20,11 +20,8 @@ if [ "$1" = "-p" ]
       echo Updating repository: $REPOSITORY
       echo ========================================================
       cd $REPOSITORY
-      #git checkout develop
-      #git pull
       git checkout master
       git pull
-      #git checkout develop
       cd ..
     done
 fi

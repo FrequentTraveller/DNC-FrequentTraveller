@@ -16,7 +16,6 @@ if [ "$1" = "-p" ]
   else
     for REPOSITORY in ${REPOSITORIES[*]}
     do
-
       echo ========================================================
       echo Cloning repository: $REPOSITORY
       echo ========================================================
